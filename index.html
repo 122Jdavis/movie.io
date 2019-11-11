@@ -3,15 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title> The Lego Movie </title>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 <style>
 .title{
   color:rgb(0,200,50);
   font-size:90px;
+  text-align:center;
+
 }
 #first {
   font-size:25px;
-  color:rgb(50,30,20);
+  color:rgb(100,30,10);
+      position:absolute; top: 500px;right:700px;
 }
   .second{
  color:#333FA3;
@@ -20,20 +24,33 @@
 }
 #off{
   color:rgb(300,200,100);
-  font-size:30px;
+  font-size:40px;
 
 }
-
+#list{
+  position:absolute; top: 300px;right:700px;
+}
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-size:50px;
+}
+p{
+  font-family: 'Muli', sans-serif;
+  font-size:30px;
+  font-color:#00ffff;
+}
+#img{
+    position:absolute; top: 400px;right:200px;
+}
 </style>
 
   </head>
-  <body style=background-color:green>
+  <body style=background-color:#0033cc>
 <h1 class="title"> The Lego Movie </h1>
 
-<p id=First> The Lego Movie is a movie that was made in 2014. It shows the life of Emmet, the main character and how he tries to stand out of the crowd....I think. And they're lego people </p>
-<h2 id=off> Official Movie Page </h2>
-<a href="http://www.thelegomovie.com/"> It includes both parts 1 and 2, but I didn't watch 2 so don't judge</a>
-<h1> List of Actors & Voice Actors </h1>
+<p id=First> The Lego Movie is a movie that was made in 2014. It shows the life of Emmet, the main character and how he has to save the world after being the "chosen one." And they're Lego people </p>
+
+<h1 id=list> List of Actors & Voice Actors </h1>
 <table id=first border=3 color="blue">
 <tr>
   <th class="second"> Actor in Movie </th>
@@ -55,6 +72,20 @@
   <th> Will Ferrell </th>
   <th> President Buisness, the Man Upstairs</th>
 </tr>
+<tr>
+  <th> Jonah Hill </th>
+  <th> Green Lantern</th>
+</tr>
+<tr>
+  <th> Alison Brie </th>
+  <th> Unikitty</th>
+</tr>
+<tr>
+  <th> Nick Offerman </th>
+  <th> MetalBeard</th>
+</tr>
+<img id="img"src="https://vignette.wikia.nocookie.net/thelegomovie/images/e/e2/IMG_6390.JPG/revision/latest/scale-to-width-down/310?cb=20180823200141" alt="Emmet" height="500"/>
 <img src="https://images-na.ssl-images-amazon.com/images/I/51VcJgaW6GL.jpg" alt="Axe" height="500"/>
+<a href="http://www.thelegomovie.com/"> <h2 id="off">Official Movie Page for parts 1 and 2</h2></a>
   </body>
 </html>
